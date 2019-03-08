@@ -32,6 +32,21 @@ GDPR stands for the general data protection regulation. It was passed on April 1
 There are two primary practices that you should practice when dealing with PII and other sensitive data. The first is to encrypt sensitive data. When in doubt, encrypt. Secondly, ask yourself what level of information you really need. Large organizations will always include data cleaning teams which will first scrub sensitive data such as names and addresses before passing said data off to analysts and others to mine. Ultimately, any well thought strategy will include multiple layers, safeguards and other measures to ensure data is safe and secure.
 
 
+### Algorithm Bias
+
+People often trust algorithms and their output based on measurements such as "this algorithm is 99.9% accuracy". However, it should also be noted, that while this algorithms such as linear regression are mathematically sound and a powerful tools, the models are simply reflections of the data that is fed in. For example, logistic regression and other algorithms are used to inform a wide range of decisions including whether to provide someone with a loan, the degree of criminal sentencing, or whether to hire an individual for a job. (Do a quick search online for algorithm bias, or check out some of the articles below.) In all of these scenarios, it is again important to remember that the algorithm is simply reflective of the underlying data itself. If an algorithm is trained on a dataset where African Americans have had disproportionate criminal prosecution, the algorithm will continue to perpetuate these racial injustices. Similarly, algorithms trained on data reflecting a gender pay-gap will also continue to promote this bias. With this, substantial thought and analysis regarding problem set up and the resulting model is incredibly important.
+
+Below is a handful of resources providing further information regarding some of the topics discussed here.
+
+* [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+
+* [Amazon’s Gender-Biased Algorithm Is Not Alone](https://www.bloomberg.com/opinion/articles/2018-10-16/amazon-s-gender-biased-algorithm-is-not-alone)
+* [The software that runs our lives can be bigoted and unfair. But we can fix it](https://www.bostonglobe.com/business/2017/12/21/the-software-that-runs-our-lives-can-bigoted-and-unfair-but-can-fix/RK4xG4gYxcVNVTIubeC1JI/story.html)
+
+* [Why artificial intelligence is far too human](https://www.bostonglobe.com/ideas/2017/07/07/why-artificial-intelligence-far-too-human/jvG77QR5xPbpwBL2ApAFAN/story.html)
+
+* [Can Computers Be Racist? The Human-Like Bias Of Algorithms](https://www.npr.org/2016/03/14/470427605/can-computers-be-racist-the-human-like-bias-of-algorithms)
+
 ## Gray Areas and Forward Thinking
 
 Aside from overtly illegal practices according to current legislation, data privacy and ethics calls into question a myriad of various thought experiments. For example, should IP addresses or cookies be considered PII? How should security camera footage be handled? What about vehicles such as google street view cars which are capturing video and pictures of public places? Some companies are now even taking pictures of license plates to track car movements. Should they be allowed to maintain massive databases of said information? What regulations should be put on these and other potentially sensitive datasets?  
