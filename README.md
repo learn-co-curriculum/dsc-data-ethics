@@ -51,7 +51,7 @@ Below is a handful of resources providing further information regarding some of 
 
 Aside from overtly illegal practices according to current legislation, data privacy and ethics calls into question a myriad of various thought experiments. For example, should IP addresses or cookies be considered PII? How should security camera footage be handled? What about vehicles such as google street view cars which are capturing video and pictures of public places? Some companies are now even taking pictures of license plates to track car movements. Should they be allowed to maintain massive databases of said information? What regulations should be put on these and other potentially sensitive datasets?  
   
-All of these examples question where and when limits should be put on data. Science fiction stories such as 1984, are much more accurate then one might expect. Moreover, injustices and questionable practices still abound. For example, despite public outcry at debuacles like Cambridge Analytica, many companies still exist with nearly identical practices such as [Applecart](https://web.archive.org/web/20160305010738/http://applecart.co/) in New York City, which collects and sells user data to the Republic party, amongst others. 
+All of these examples question where and when limits should be put on data. Science fiction stories such as 1984, are much more accurate then one might expect. Moreover, injustices and questionable practices still abound. For example, despite public outcry at debacles like Cambridge Analytica, many companies still exist with nearly identical practices such as [Applecart](https://web.archive.org/web/20160305010738/http://applecart.co/) in New York City, which collects and sells user data to the Republic party, amongst others. 
 
 <img src="images/fix-it.png" width=750>
 
@@ -77,7 +77,7 @@ EFF recently put together an article called Fix it Already, outlining fixable mi
 
 ## Disclaimer
 
-As a final note, it should also be noted that the nature of online data can also include offensive or inappropriate data at times. For example, if acquiring data from an API such as twitter, there is potential to encounter lude or offensive material. While many of these services will eventually screen out and remove particularly egregious cases, plenty of trolls still exist.
+As a final note, it should also be noted that the nature of online data can also include offensive or inappropriate data at times. For example, if acquiring data from an API such as twitter, there is potential to encounter lewd or offensive material. While many of these services will eventually screen out and remove particularly egregious cases, plenty of trolls still exist.
 
 ## Additional Resources
 
