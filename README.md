@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Data ethics and data privacy are integral to any data project. There are obvious cases such as protecting the privacy of individuals health records under HIPPA. There are also many gray areas surrounding what constitutes personally identifiable information (PII) which occur throughout many industries including advertising, finance, and consumer goods. You may have noticed that starting around the summer of 2018, you started receiving privacy policy notices on many websites asking you to accept the use of cookies. This was a result of Europe's GDPR legislation. You are also probably aware of the Cambridge Analytica debacle in the 2016 United States presidential election. As a data practitioner, it is your responsibility to uphold data ethics in a fast-changing environment.
+Data ethics and data privacy are integral to any data project. There are obvious cases such as protecting the privacy of individuals health records under HIPAA. There are also many gray areas surrounding what constitutes personally identifiable information (PII) which occur throughout many industries including advertising, finance, and consumer goods. You may have noticed that starting around the summer of 2018, you started receiving privacy policy notices on many websites asking you to accept the use of cookies. This was a result of Europe's GDPR legislation. You are also probably aware of the Cambridge Analytica debacle in the 2016 United States presidential election. As a data practitioner, it is your responsibility to uphold data ethics in a fast-changing environment.
 
 ## Objectives
 
@@ -85,7 +85,7 @@ There's a multitude of resources to get involved with data privacy and ethics, b
 
 * [Electronic Frontier Foundation](https://www.eff.org/)
 * [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN)
-* [HIPPA](https://www.hhs.gov/hipaa/for-professionals/index.html)
+* [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html)
 * [Data Detox](https://datadetox.myshadow.org/en/home)
 
 ## Summary
