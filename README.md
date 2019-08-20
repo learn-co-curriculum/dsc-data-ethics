@@ -31,6 +31,9 @@ GDPR stands for the general data protection regulation. It was passed on April 1
 
 There are two primary practices that you should practice when dealing with PII and other sensitive data. The first is to encrypt sensitive data. When in doubt, encrypt. Secondly, ask yourself what level of information you really need. Large organizations will always include data cleaning teams which will first scrub sensitive data such as names and addresses before passing said data off to analysts and others to mine. Ultimately, any well-thought strategy will include multiple layers, safeguards and other measures to ensure data is safe and secure.
 
+### Data Collection Processes
+
+When collecting data, it is important to ensure you are not gathering it in a manner that will generate bias. For example, if data scientists are not careful in the way they phrase questions in surveys, they can generate misleading results. If a poll contained the question "How poorly has Politician X performed when it comes to the economy" it adds a negative connotation the question. That phrasing might make people say Politician X performed worse than if they had merely been asked "How has Politician X performed when it come to the economy?" In some cases, choosing which variables to collect and how to define them can contain bias. You’ll notice that in some of the datasets we use, gender is represented as a binary value. This is an artifact of the societal conditions at the time the data was collected. As you become data scientists in the field, it will be your responsibility to ensure that data collection is done in an inclusive manner.
 
 ### Algorithm Bias
 
