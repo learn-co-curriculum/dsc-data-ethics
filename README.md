@@ -65,9 +65,8 @@ In staying current, you should also identify some news sources to stay up to dat
 One great resource is the [Electronic Frontier Foundation (EFF)](https://www.eff.org/).  
   
 EFF recently put together an article called Fix it Already, outlining fixable mishaps by technology companies that continue to be ignored. Take a look at the article [here](https://www.eff.org/deeplinks/2019/02/announcing-fix-it-already) and get involved to put pressure on these organizations and your representatives to shape up. Here's a quick preview of their list:  
-  
 
-* Android should let users <a href="https://fixitalready.eff.org/android">deny and revoke apps' Internet permissions</a>.</span></li>
+<p><li><span>Android should let users <a href="https://fixitalready.eff.org/android">deny and revoke apps' Internet permissions</a>.</span></li>
 <li><span>Apple should let users <a href="https://fixitalready.eff.org/apple">encrypt their iCloud backups</a>.</span></li>
 <li><span>Facebook should <a href="https://fixitalready.eff.org/facebook">leave your phone number where you put it</a>.</span></li>
 <li><span>Slack should give <a href="https://fixitalready.eff.org/slack">free workspace administrators control over data retention</a>.</span></li>
@@ -75,8 +74,7 @@ EFF recently put together an article called Fix it Already, outlining fixable mi
 <li><span>Venmo should let users <a href="https://fixitalready.eff.org/venmo">hide their friends lists</a>.</span></li>
 <li><span>Verizon should <a href="https://fixitalready.eff.org/verizon">stop pre-installing spyware on its users’ phones</a>.</span></li>
 <li><span>WhatsApp should <a href="https://fixitalready.eff.org/whatsapp">get your consent before you’re added to a group</a>.</span></li>
-<li><span>Windows 10 should let users <a href="https://fixitalready.eff.org/win10">keep their disk encryption keys to themselves</a>.</span></li>
-
+<li><span>Windows 10 should let users <a href="https://fixitalready.eff.org/win10">keep their disk encryption keys to themselves</a>.</span></li></p>
 
 ## Disclaimer
 
