@@ -1,94 +1,71 @@
-
-# Data Privacy and Data Ethics
+# Data Privacy
 
 ## Introduction
-
-Data ethics and data privacy are integral to any data project. There are obvious cases such as protecting the privacy of individuals' health records under HIPAA. There are also many gray areas surrounding what constitutes personally identifiable information (PII), which occur throughout many industries including advertising, finance, and consumer goods. You may have noticed that starting around the summer of 2018, you started receiving privacy policy notices on many websites asking you to accept the use of cookies. This was a result of Europe's GDPR legislation. You are also probably aware of the Cambridge Analytica debacle in the 2016 United States presidential election. As a data practitioner, it is your responsibility to uphold data ethics in a fast-changing environment.
+As a information technology professional it is important that you understand your role in maintaining __data privacy__ and practicing __data security__ measures to protecting the data that you manage from unauthorized access. This can be challenging because we live in a time where the rules and regulations surrounding data privacy and security is still evolving to keep up with technology. First, let's identify a few terms we will use in this lesson. Then, we will dig into some recent legislation -- the GDPR!
 
 ## Objectives
-
 You will be able to:
+* Describe GDPR and its impact on data privacy
+* Identify and describe PII, PHI, PCI, and other data of a sensitive nature
+* Describe the impact and prevention of data breaches
 
-* Determine whether or not a data science procedure meets an ethics standard
+## Important Terms
+__Data privacy__ refers to the right of individuals and organizations to protect their data from unauthorized access. When companies and organizations collect data from users, users have a right to know what data is being collected, how the data is used, and who might have access to it. 
 
-## Examples
+__Data security__ refers to the set of actions and tools used to maintain the privacy of the data. Essentially, data professionals have a responsibility to implement security measures in order to maintain privacy. 
 
-### Data Breaches
+__Data governance (DG)__ is the set of processes and operations that an organization will apply to maintain standards of privacy, security, and integrity as data is accessed and used across the organization. 
 
-If the data you are handling is valuable, then security should be a primary concern. Data breaches are all too common and often, such leaks of sensitive information could have been avoided if businesses and organizations followed standard security protocols. While there are thousands of said cases, two of the biggest breaches which have caught the public's attention include Cambridge Analytica's misuse of Facebook data to influence political elections and Equifax's leaking of roughly 100 million individuals' social security numbers and credit scores. 
-
-### Identifying PII
-
-PII stands for **personally identifiable information**. While some cases such as one's social security number and medical records are clear examples of PII, other pieces of data may or may not qualify as PII depending on the jurisdiction. In the United States for example, there are two federal regulations: the Health Insurance Portability and Accountability Act (HIPAA), and the Privacy Act of 1974. While in theory these acts aim to protect the use, collection, and maintenance of personal data, the scope of what constitutes PII and the subsequent regulations surrounding handling and using said data is generally antiquated. For example, a user's IP address has been categorized as non-PII by several U.S. courts despite it being a unique identifier to most individual's home internet connection. This was further eroded by the rollback of net neutrality laws by the FCC Chairman Ajit Pai in mid-2018. Aside from federal jurisdiction, several states (most notably California) have their own data protection laws to the benefit and protection of users and consumers.
+## Data Privacy Legislation and Regulations
 
 ### GDPR
+The __General Data Protection Regulation__ was passed on April 14th 2016 by the European Union and went into effect on May 25th 2018. GDPR protects the data rights of all European citizens and is an example of how legislation will have to change and adapt to the digital era of the 21st century. GDPR stipulates that:
 
-GDPR stands for the **general data protection regulation**. It was passed on April 14th, 2016 by the European Union and went into effect on May 25th, 2018. GDPR protects the data rights of all European citizens and is an example of how legislation will have to change and to adapt to the online digital era of the 21st century. GDPR has implemented more widespread regulations surrounding what constitutes PII and has set fine structures for up to 4% of a company's revenue.
+GDPR has implemented more widespread regulations that include penalties of up to 4% of a company's earnings for the failure to adhere to GDPR's stipulations. The stringent policies of the GDPR have encouraged international platforms to adhere to the GDPR's standards in most countries to avoid accidental violations, allowing for an increase in privacy for users world wide.
 
-### Data Best Practices
+#### Lawful Basis
+__Personal Data__ and __Sensitive Personal Data__ are data that require a __lawful basis__ to be collected, as prescribed by GDPR. A lawful basis can include:
+1. consent from the subject
+2. to fulfill a contractual obligation entered into by the subject
+3. to comply with the data collectors legal obligations
+4. to protect the data subjects vital interests
+5. for the public interest
+6. to pursue the legitimate interests of the data controller
 
-There are two primary practices that you should follow when dealing with PII and other sensitive data. The first is to encrypt sensitive data. When in doubt, encrypt. Secondly, ask yourself what level of information you really need. Large organizations will always include data cleaning teams which will first scrub sensitive data such as names and addresses before passing said data off to analysts and others to mine. Ultimately, any well-thought strategy will include multiple layers, safeguards, and other measures to ensure data is safe and secure.
+#### Personal Data versus Sensitive Personal Data
+Recent legislation, namely the European Union's GDPR (Global Data Protection Regulation) has articulated some key concepts in privacy regulation that have been widely adopted across the industry in an effort to remain in compliance with the EU's legislation. Below, we will define the language of GDPR to help us better understand what __personal__ and __sensitive__ data are and how we can responsibly manage it. 
 
-### Data Collection Processes
+__Personal data__ (also known as __Personal Indentifiable Information__ or __PII__) is any piece of information or combination of information about a living person that can be used to identify them with reasonable accuracy. This can include, but is not limited to:
+* Name, address, phone number, and email
+* Social media handles
+* Name and Employer
+* Name and Schedule
+* IP addresses
 
-When collecting data, it is important to ensure you are not gathering it in a manner that will generate bias. For example, if Data Scientists are not careful in the way they phrase questions in surveys, they can generate misleading results. If a poll contained the question "How poorly has Politician X performed when it comes to the economy" it adds a negative connotation the question. That phrasing might make people say Politician X performed worse than if they had merely been asked "How has Politician X performed when it comes to the economy?" 
+__Sensitive personal data__ is outlined by GDPR as a specific set of special categories that must be treated with extra security. These categories include:
+* Racial or ethnic origin
+* Political opinions
+* Religious or philosophical beliefs
+* Trade union membership
+* Genetic data
+* Data related to sexual orientation
+* Unique biometric data
 
-In some cases, choosing which variables to collect and how to define them can also contain bias. You’ll notice that in some of the datasets we use, gender is represented as a binary value and race is referenced in an insensitive manner. This is an artifact of the societal conditions at the time the data was collected. As soon-to-be Data Scientists, it will be your responsibility to ensure that data collection is done in an inclusive manner.
 
-### Algorithm Bias
+### HIPAA and Protected Health Information (PHI)
+Before GDPR, numerous regulations existed to govern the use of personal data in the medical sphere. In the United States, __the HIPAA Privacy Rule__ established national standards to protect individuals' medical records and other individually identifiable health information (known as protected health information or PHI). The Privacy Rule stipulates appropriate safeguards to protect PHI and limit how the information can be disclosed without the consent of the patient. It also gives individuals rights over their protected health information, including the right to obtain copies of their records. 
 
-People often trust algorithms and their output based on measurements such as "this algorithm has 99.9% accuracy". However, it should also be noted that while algorithms such as linear regression are mathematically sound and powerful tools, the models are simply reflections of the data that is fed in. For example, logistic regression and other algorithms are used to inform a wide range of decisions including whether to provide someone with a loan, the degree of criminal sentencing, or whether to hire an individual for a job. (Do a quick search online for algorithm bias, or check out some of the articles below.) In all of these scenarios, it is again important to remember that the algorithm is simply reflective of the underlying data itself. If an algorithm is trained on a dataset where African Americans have had disproportionate criminal prosecution, the algorithm will continue to perpetuate these racial injustices. Similarly, algorithms trained on data reflecting a gender pay-gap will also continue to promote this bias. With this, substantial thought and analysis regarding problem set up and the resulting model is incredibly important.
 
-Below is a handful of resources providing further information regarding some of the topics discussed here.
+### Payment Card Industry Data Security Standard (PCI DSS)
+Additionally, __PCI (Payment Card Information)__ is also of a sensitive nature and should be protected. To ensure that security standards were being applied consistently across the industry, credit card companies developed the PCI DSS, which is a set of security requirements developed for sensitive credit cardholder data. These requirements are not optional and apply to anyone who stores, processes, transmits or otherwise has access to credit cardholder data. It also applies to all system components included in or connected to or the cardholder data environment. Special training is required for people with access to credit cardholder data.
 
-* [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+## Data Breaches
+A __data breach__ is when confidential, sensitive, or protected information is exposed to an unauthorized person. Files from a data breach can be misused in a number of ways, including identity theft. Data breaches occur often on both a large and small scale. The damage that ensues depends on the kind of data that is exposed. In September of 2017, Equifax announced it experienced a data breach, which impacted the personal information of approximately 147 million people.  This resulted in a class action lawsuit and subsequent settlement. Equifax denied any wrongdoing and no judgment or finding of wrongdoing was made.
 
-* [Amazon’s Gender-Biased Algorithm Is Not Alone](https://www.bloomberg.com/opinion/articles/2018-10-16/amazon-s-gender-biased-algorithm-is-not-alone)
-* [The software that runs our lives can be bigoted and unfair. But we can fix it](https://www.bostonglobe.com/business/2017/12/21/the-software-that-runs-our-lives-can-bigoted-and-unfair-but-can-fix/RK4xG4gYxcVNVTIubeC1JI/story.html)
-
-* [Why artificial intelligence is far too human](https://www.bostonglobe.com/ideas/2017/07/07/why-artificial-intelligence-far-too-human/jvG77QR5xPbpwBL2ApAFAN/story.html)
-
-* [Can Computers Be Racist? The Human-Like Bias Of Algorithms](https://www.npr.org/2016/03/14/470427605/can-computers-be-racist-the-human-like-bias-of-algorithms)
-
-## Gray Areas and Forward Thinking
-
-Aside from overtly illegal practices according to current legislation, data privacy and ethics calls into question a myriad of various thought experiments. For example, should IP addresses or cookies be considered PII? How should security camera footage be handled? What about vehicles such as Google street view cars which are capturing video and pictures of public places? Some companies are now even taking pictures of license plates to track car movements. Should they be allowed to maintain massive databases of said information? What regulations should be put on these and other potentially sensitive datasets?  
-  
-All of these examples question where and when limits should be put on data. Science fiction stories such as [1984](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four) are much more accurate then one might expect. Moreover, injustices and questionable practices still abound. For example, despite public outcry at debacles like Cambridge Analytica, many companies still exist with nearly identical practices such as [Applecart](https://web.archive.org/web/20160305010738/http://applecart.co/) in New York City, which collects and sells user data to the Republican party, amongst others. 
-
-<img src="images/fix-it.png" width=750>
-
-## [Fix it Already!](https://www.eff.org/deeplinks/2019/02/announcing-fix-it-already)
-
-          
-In staying current, you should also identify some news sources to stay up to date on tech trends.  
-One great resource is the [Electronic Frontier Foundation (EFF)](https://www.eff.org/).  
-  
-EFF recently put together an article called Fix it Already, outlining fixable mishaps by technology companies that continue to be ignored. Take a look at the article [here](https://www.eff.org/deeplinks/2019/02/announcing-fix-it-already) and get involved to put pressure on these organizations and your representatives to shape up. Here's a quick preview of their list:  
-
-<p><li><span>Android should let users <a href="https://fixitalready.eff.org/android">deny and revoke apps' Internet permissions</a>.</span></li>
-<li><span>Apple should let users <a href="https://fixitalready.eff.org/apple">encrypt their iCloud backups</a>.</span></li>
-<li><span>Facebook should <a href="https://fixitalready.eff.org/facebook">leave your phone number where you put it</a>.</span></li>
-<li><span>Slack should give <a href="https://fixitalready.eff.org/slack">free workspace administrators control over data retention</a>.</span></li>
-<li><span>Twitter should <a href="https://fixitalready.eff.org/twitter">end-to-end encrypt direct messages</a>.</span></li>
-<li><span>Venmo should let users <a href="https://fixitalready.eff.org/venmo">hide their friends lists</a>.</span></li>
-<li><span>Verizon should <a href="https://fixitalready.eff.org/verizon">stop pre-installing spyware on its users’ phones</a>.</span></li>
-<li><span>WhatsApp should <a href="https://fixitalready.eff.org/whatsapp">get your consent before you’re added to a group</a>.</span></li>
-<li><span>Windows 10 should let users <a href="https://fixitalready.eff.org/win10">keep their disk encryption keys to themselves</a>.</span></li></p>
-
-## Disclaimer
-
-As a final note, it should also be noted that the nature of online data can also include offensive or inappropriate data at times. For example, if acquiring data from an API such as Twitter, there is potential to encounter lewd or offensive material. While many of these services will eventually screen out and remove particularly egregious cases, plenty of trolls still exist.
-
-## Additional Resources
-
-There's a multitude of resources to get involved with data privacy and ethics, but here's a few to get you started.
-
-* [Electronic Frontier Foundation](https://www.eff.org/)
-* [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN)
-* [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html)
-* [Data Detox](https://datadetox.myshadow.org/en/home)
+The Equifax incident highlights the fact that we cannot always rely on companies and/or the government to create sufficient regulations to protect user data. Despite Equifax being a reputable company, they were still vulnerable to attack because new exploits will always exists. This is why it is important that we manage data privacy on a user level to the best of our ability. Simple things such as using a __password manager__ and __two-factor authentication__ to protect your credentials can do a lot to limit your exposure in the event of a data breach.
 
 ## Summary
+Preventing data breaches requires that companies, governments, and individuals all take action to protect personal information at all stages. This includes designing hardware and software with privacy in mind to limit data collection
+and establishing and enforcing rigorous policies to protect information that is collected.
 
-In this lesson, you got a preview of some of the many issues regarding data privacy and ethics. From GDPR to being aware of your own data aura, there's plenty to keep you busy and on your toes regarding this fascinating perspective on the data industry.
+In addition to the responsibility of the government and companies, users also share the responsibility of keeping data secure. As an information technology professional, it is especially important that you effectively manage the security of your equipment and credentials to prevent unauthorized access to user data. 
