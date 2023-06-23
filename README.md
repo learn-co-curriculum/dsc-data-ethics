@@ -1,7 +1,7 @@
 # Data Privacy
 
 ## Introduction
-As a information technology professional it is important that you understand your role in maintaining __data privacy__ and practicing __data security__ measures to protecting the data that you manage from unauthorized access. This can be challenging because we live in a time where the rules and regulations surrounding data privacy and security is still evolving to keep up with technology. First, let's identify a few terms we will use in this lesson. Then, we will dig into some recent legislation -- the GDPR!
+As an information technology professional, you must understand your role in maintaining **data privacy** and practicing **data security measures** to protect the data you manage from unauthorized access. This can be challenging because we live in a time where the rules and regulations surrounding data privacy and security is still evolving to keep up with technology. First, let's identify a few terms we will use in this lesson. Then, we will dig into some recent legislation -- the GDPR!
 
 ## Objectives
 You will be able to:
