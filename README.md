@@ -33,7 +33,7 @@ __Personal Data__ and __Sensitive Personal Data__ are data that require a __lawf
 6. to pursue the legitimate interests of the data controller
 
 #### Personal Data versus Sensitive Personal Data
-Recent legislation, namely the European Union's GDPR (Global Data Protection Regulation) has articulated some key concepts in privacy regulation that have been widely adopted across the industry in an effort to remain in compliance with the EU's legislation. Below, we will define the language of GDPR to help us better understand what __personal__ and __sensitive__ data are and how we can responsibly manage it. 
+Recent legislation, namely the European Union's GDPR has articulated some key concepts in privacy regulation that have been widely adopted across the industry in an effort to remain in compliance with the EU's legislation. Below, we will define the language of GDPR to help us better understand what __personal__ and __sensitive__ data are and how we can responsibly manage it. 
 
 __Personal data__ (also known as __Personal Indentifiable Information__ or __PII__) is any piece of information or combination of information about a living person that can be used to identify them with reasonable accuracy. This can include, but is not limited to:
 * Name, address, phone number, and email
