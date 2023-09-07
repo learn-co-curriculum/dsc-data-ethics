@@ -19,7 +19,7 @@ __Data governance (DG)__ is the set of processes and operations that an organiza
 ## Data Privacy Legislation and Regulations
 
 ### GDPR
-The __General Data Protection Regulation__ was passed on April 14th 2016 by the European Union and went into effect on May 25th 2018. GDPR protects the data rights of all European citizens and is an example of how legislation will have to change and adapt to the digital era of the 21st century. GDPR stipulates that:
+The __General Data Protection Regulation__ was passed on April 14th 2016 by the European Union and went into effect on May 25th 2018. GDPR protects the data rights of all European citizens and is an example of how legislation will have to change and adapt to the digital era of the 21st century.
 
 GDPR has implemented more widespread regulations that include penalties of up to 4% of a company's earnings for the failure to adhere to GDPR's stipulations. The stringent policies of the GDPR have encouraged international platforms to adhere to the GDPR's standards in most countries to avoid accidental violations, allowing for an increase in privacy for users world wide.
 
