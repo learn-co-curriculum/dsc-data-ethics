@@ -53,7 +53,7 @@ __Sensitive personal data__ is outlined by GDPR as a specific set of special cat
 
 
 ### HIPAA and Protected Health Information (PHI)
-Before GDPR, numerous regulations existed to govern the use of personal data in the medical sphere. In the United States, __the HIPAA Privacy Rule__ established national standards to protect individuals' medical records and other individually identifiable health information (known as protected health information or PHI). The Privacy Rule stipulates appropriate safeguards to protect PHI and limit how the information can be disclosed without the consent of the patient. It also gives individuals rights over their protected health information, including the right to obtain copies of their records. 
+Before GDPR, numerous regulations existed to govern the use of personal data in the medical sphere. In the United States, __the HIPAA (Health Insurance Portability and Accountability Act) Privacy Rule__ established national standards to protect individuals' medical records and other individually identifiable health information (known as protected health information or PHI). The Privacy Rule stipulates appropriate safeguards to protect PHI and limit how the information can be disclosed without the consent of the patient. It also gives individuals rights over their protected health information, including the right to obtain copies of their records. 
 
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
